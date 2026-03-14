@@ -85,11 +85,3 @@ Toàn bộ corpus được dùng làm **golden reference** để đánh giá —
 - Cả hai đều không train trên Brown corpus, đây là đánh giá cross-corpus (domain transfer).
 - Tag `X` (foreign words, symbols) và `PRT` (particle) thường có F1 thấp nhất ở cả hai tagger
   do ít mẫu và phân phối không đồng đều.
-
-## Cách chạy
-
-```bash
-conda activate python3.11
-pip install nltk scikit-learn matplotlib numpy
-python pos_tagger.py
-```
